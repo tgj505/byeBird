@@ -10,7 +10,7 @@ The following steps create a virtual environment, and I deal with API credential
     - `> .venv\Scripts\activate.bat`
     - `> py -m pip install --upgrade pip`
 - install the needed packages and environment
-    - `> py -m pip install -r requirements.txt		
+    - `> py -m pip install -r requirements.txt`
 	- `> dynaconf init -f toml`
 	- You can update .gitignore, if you'd like.
 
