@@ -1,6 +1,6 @@
 # byeBird
 
-Deleting all your tweets, favorites, and follows using python...[while you still can](https://twitter.com/TwitterDev/status/1623467615539859456)! Read [more below](#why) about why you might want to.
+Deleting all your tweets, favorites, and follows using python...[while you still can](https://twitter.com/TwitterDev/status/1623467615539859456)! Read [more below](#why) I wanted to.
 
 ### Set it up
 The following steps use a virtual environment, and I deal with API credential handling using [dynaconf](https://www.dynaconf.com/). Alternatively, just copy `birdBye.py`, install tweepy and tqdm, and insert your API variables directly in the file to run.
