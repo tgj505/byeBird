@@ -3,7 +3,7 @@
 Deleting all your tweets, favorites, and follows using python...[while you still can](https://twitter.com/TwitterDev/status/1623467615539859456)! Read [more below](#why) about I wanted to.
 
 ### Set it up
-The following steps create a virtual environment, and I deal with API credential handling using [dynaconf](https://www.dynaconf.com/). Alternatively, just copy [`birdBye.py`](https://github.com/tgj505/byeBird/blob/main/birdBye.py), install tweepy and tqdm, and insert your API variables directly in the file to run.
+The following steps create a virtual environment, and I deal with API credential handling using [dynaconf](https://www.dynaconf.com/). **Alternatively**, just copy **[`birdBye.py`](https://github.com/tgj505/byeBird/blob/main/birdBye.py)**, install tweepy and tqdm, and insert your API variables directly in the file to run.
 - Pull this repo.
 - Set up your [virtual environment](https://docs.python.org/3/library/venv.html), e.g. using cmd:
     - `> py -m venv .venv`
@@ -59,12 +59,12 @@ And despite these kinds of cost cutting measures (in addition to making people p
 
 #### everyting else!
 Don't forget the right wing propoganda, doxxing, potential fraud, international legal and [regulatory violations](https://apnews.com/article/elon-musk-twitter-inc-technology-politics-european-union-0f912b92a70742ba8ad280cde2f935d9), the climate [misinformation](https://apnews.com/a7e2e3214abb4470dcb6e2837aa39c2e), or the restriction of [free press](https://apnews.com/article/elon-musk-technology-business-social-media-647b3b9d5961da3cd8bd0c0041d05b49).
-There's also all the bratty, adolescent absurdities. The 51 year old manchild CEO tweeted two vaguely pornographic memes (one showing the washington monument as a giant's dick). A couple days before, just after one of his tweets didn't get as much engagement as he wanted, the muskmelon [ordered engineers](https://www.theverge.com/2023/2/14/23600358/elon-musk-tweets-algorithm-changes-twitter) to increase propogation of his posts. 
+There's also all the bratty, adolescent absurdities. The 51 year old manchild CEO tweeted two vaguely pornographic memes (one showing the washington monument as a giant's dick), rehashing his constant early 2000s edgelord cosplay. A couple days before, just after one of his tweets didn't get as much engagement as he wanted, the muskmelon [ordered engineers](https://www.theverge.com/2023/2/14/23600358/elon-musk-tweets-algorithm-changes-twitter) to increase propogation of his posts. 
 
 All the aforementioned stuff is pretty recent. But lots of these issues run deep in both [twitter](https://apnews.com/article/technology-middle-east-saudi-arabia-money-laundering-dc9612bf2f80af6be192606bd1af7d71) and tech in general. [evil sentient Bing](https://erikhoel.substack.com/p/i-am-bing-and-i-am-evil) wasn't on my 2023 bingo board.
 
-#### loneskum's business history
-Tesla factories are unsafe and the CEO has illegally fired employees for attempting to [unionize](https://www.vanityfair.com/news/2023/02/elon-musks-tesla-fires-employees-unionize). PLus the cars themselves are extremely dangerous, with hundreds of thousands being [recalled all the time](https://time.com/6256478/tesla-recall-self-driving-safety-concerns/), and deaths resulting from Teslas crashing into [emergency vehicles](https://apnews.com/article/technology-business-injuries-fires-59d22dced75ec1ce6929c9dfb094524c). If his companies can only make expensive, buggy, unsafe cars, how can twitter take care of its security and misinformation problems?
+#### lack of saftey at loneskum's other business
+Tesla factories are [unsafe](https://www.forbes.com/sites/alanohnsman/2019/03/01/tesla-safety-violations-dwarf-big-us-auto-plants-in-aftermath-of-musks-model-3-push/), the company forced its factory employees to labor illegally during the global pandemic (with hundreds contracting [COVID](https://www.nytimes.com/2021/03/15/business/tesla-workers-coronavirus.html) while working against local laws), and the CEO recently illegally fired employees for attempting to [unionize](https://www.vanityfair.com/news/2023/02/elon-musks-tesla-fires-employees-unionize). Plus the cars themselves are extremely dangerous, with hundreds of thousands being [recalled all the time](https://time.com/6256478/tesla-recall-self-driving-safety-concerns/), and deaths resulting from Teslas crashing into [emergency vehicles](https://apnews.com/article/technology-business-injuries-fires-59d22dced75ec1ce6929c9dfb094524c). If his companies can only make expensive, buggy, unsafe cars--and recklessly [launching rockets](https://arstechnica.com/tech-policy/2023/02/spacex-could-be-fined-175k-for-failure-to-properly-report-launch-data-to-faa/)--how can twitter take care of its security and misinformation problems?
 
 ### mastodon is chill. 
 Check it out. [@tomasito@mas.to](https://mas.to/@tomasito). Or just get rid of it all.
