@@ -3,13 +3,21 @@ from tqdm import tqdm
 import tweepy
 
 
+# API credentials. Either from .secrets.toml or you can hardcode yours in here
+consumer_key=settings.api_key
+consumer_secret=settings.api_key_secret
+access_token=settings.access_token
+access_token_secret=settings.access_token_secret
+bearer_token=settings.bearer_token
+user_id=settings.user_id
+
 # set up the authentication and connect to the api
 auth = tweepy.OAuth1UserHandler(
-    consumer_key=settings.api_key,
-    consumer_secret=settings.api_key_secret,
-    access_token=settings.access_token,
-    access_token_secret=settings.access_token_secret
-)
+    consumer_key=consumer_key,
+    consumer_secret=consumer_secret,
+    access_token=access_token,
+    access_token_secret=access_token_secret,
+    )
 
 api = tweepy.API(auth)
 
@@ -23,20 +31,21 @@ print("Removing all follows")
 for following in tqdm(tweepy.Cursor(api.get_friend_ids).items()):
     api.destroy_friendship(user_id=following)
     
-# set up user client to delete 
+# set up user client to delete favorites
 client =  tweepy.Client(
-    bearer_token=settings.bearer_token,
-    consumer_key=settings.api_key,
-    consumer_secret=settings.api_key_secret,
-    access_token=settings.access_token,
-    access_token_secret=settings.access_token_secret)
+    bearer_token=bearer_token,
+    consumer_key=consumer_key,
+    consumer_secret=consumer_secret,
+    access_token=access_token,
+    access_token_secret=access_token_secret
+    )
 
 # find and delete likes/favorites, login if needed
-liked_tweets = client.get_liked_tweets(settings.user_id,
+print("Removing all likes")
+liked_tweets = client.get_liked_tweets(user_id,
                                        user_auth=True)
 
 # crude pagination loop through all likes
-print("Removing all likes")
 try:
     while len(liked_tweets.data) > 0:
         for tweet in tqdm(liked_tweets.data):
@@ -48,5 +57,5 @@ try:
 except TypeError:
     pass
 
-print("All done")
+print("All done!")
                                            
