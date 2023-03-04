@@ -40,9 +40,9 @@ There's no going back, so make sure you're ready to delete all your twitter stuf
 
 ### why
 
-Why might you want to delete everything? Do you want [this guy](https://www.vanityfair.com/news/2022/04/elon-musk-twitter-terrible-things-hes-said-and-done) and his sycophantic lackeys to have access to your stuff, monetizing your attention and actions? Using your tweets to tune an AI? Selling your data to anyone they want?
+Why might you want to delete everything? Do you want [this guy](https://www.vanityfair.com/news/2022/04/elon-musk-twitter-terrible-things-hes-said-and-done) and some sycophants to have access to your stuff, monetizing your attention and actions? Using your tweets to tune an AI? Selling your data to anyone they want?
 
-Why not just delete the whole account? Paranoia of impersonatin
+You could just delete your whole account.
 
 Some more specific bad things about twitter and the muskmelon, who (has said)[https://twitter.com/alx/status/1625734305447088128] that "at the end of the day, having some criticism is fine, ya know, it's really not that bad. I mean, I am constantly attacked on twitter, frankly, and I don't mind."
 
