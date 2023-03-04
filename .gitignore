@@ -3,7 +3,10 @@
 .secrets.*
 
 # Ignore .venv
-.venv
+.venv/*
 
 # pycache
-__pycache__
+__pycache__/*
+
+# mypy
+..mypy_cache/*
