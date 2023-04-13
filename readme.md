@@ -1,5 +1,17 @@
 # byeBird
 
+## **update 2023-04-13**
+you might still be able to make this work, but twitter has changed their API stuff. Here's an email i got from `<support@twitter.com>`.
+> Hello,
+> This is a notice that your app - deletingTomsTweets - has been suspended from accessing the Twitter API.
+> Please visit developer.twitter.com to sign up to our new Free, Basic or Enterprise access tiers.
+> More information can be found on our developer community forums.
+> Regards,
+> Twitter Developer Platform 
+"
+
+
+## original below
 Deleting all your tweets, favorites, and follows using python...[while you still can](https://twitter.com/TwitterDev/status/1623467615539859456)! Read [more below](#why) about why I wanted to.
 
 ### Set it up
