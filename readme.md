@@ -56,7 +56,7 @@ Why might you want to delete everything? Do you want [this guy](https://www.vani
 
 You could just delete your whole account.
 
-Some more specific bad things about twitter and the muskmelon, who (has said)[https://twitter.com/alx/status/1625734305447088128] that "at the end of the day, having some criticism is fine, ya know, it's really not that bad. I mean, I am constantly attacked on twitter, frankly, and I don't mind."
+Some more specific bad things about twitter and the muskmelon, who [has said](https://twitter.com/alx/status/1625734305447088128) that "at the end of the day, having some criticism is fine, ya know, it's really not that bad. I mean, I am constantly attacked on twitter, frankly, and I don't mind."
 
 ### API Access
 
